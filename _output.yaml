@@ -1,0 +1,8 @@
+html_document:
+  keep_md: true
+  self_contained: false
+  css:
+    - includes/main.css
+  lib_dir: libs
+  includes:
+    in_header: includes/google_analytics.html

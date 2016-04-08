@@ -1,1 +1,0 @@
-# ComputationalNeurobiology.github.io
