@@ -3,7 +3,7 @@ output:
   html_document
 ---
 
-# Neuroinformatics Laboratory
+# Computational Neurobiology Laboratory
 
 #### Centre for Mental Health and Addiction ([CAMH](http://www.camh.ca/))
 
