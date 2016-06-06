@@ -28,7 +28,7 @@ Current and recent past collaborators include:
 - Drs. Tomáš Paus and Zdenka Pausova in Toronto (my postdoctoral supervisors): population neuroscience, epigenetics and axon transport
 - Drs. Franziska Wagner and Rüdiger W Veh in Germany: gene expression analyses in the habenula
 - Dr. Noa Liscovitch in Israel: coexpression analyses of SNCA in Parkinson's disease
-- Dr. John Vincent: expression analyses of genes associated with autism and intellecutal disability
+- Dr. John B. Vincent in Toronto: expression analyses of genes associated with autism and intellecutal disability
 - Dr. Etienne Sibille in Toronto: neurobiology of depression and aging
 - Dr. Paul Pavlidis in Vancouver (my PhD supervisor): bioinformatics for neuroanatomical connectivity
 - Yohan Yee: text mining for Psychiatry
