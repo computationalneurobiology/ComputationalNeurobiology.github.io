@@ -14,7 +14,7 @@ We recruiting graduate students with interests in bioinformatics, computational 
 
 #### Postdoctoral Fellows
 
-We are hiring one postdoctoral fellow with experience in genomics and neuroscience. Current programming ability is requested with preference for Java and R.
+We are hiring one postdoctoral fellow with experience in genomics and neuroscience. Current programming ability is requested with preference for Java and R. Details available at [indeed.com](http://ca.indeed.com/job/research-fellow-neuroinformatics-ae5bbc60c67c5db5).
 
 Graduate and postdoctoral positions are fully funded. 
 
