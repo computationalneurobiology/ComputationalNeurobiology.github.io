@@ -5,7 +5,7 @@ output:
 
 ## Research Interests
 
-Broadly, we are interested in helping integrate epigenomic, transcriptomic, genetic, connectivity, imaging, clinical and epidemiological data related to the neurobiology of psychiatric disorders. 
+Broadly, we are interested in helping integrate epigenomic, transcriptomic, genetic, connectivity, imaging, clinical and epidemiological data to understand the brain and gain insight into the neurobiology of psychiatric disorders. 
 
 ### Integrative Neuroinformatics for Neuroanatomy
 
