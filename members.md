@@ -2,6 +2,9 @@
 output:
   html_document
 ---
+<!---
+This is really annying to edit - the tables are really finicky about spaces
+-->
 
 ### Leon French, Principal Investigator
 
@@ -14,6 +17,14 @@ output:
 |                                              | |  [Publication list on Google Scholar](https://scholar.google.ca/citations?hl=en&user=zBJxfPEAAAAJ&view_op=list_works&sortby=pubdate)         |
 |                                              | |  [ResearchGate profile ](https://www.researchgate.net/profile/Leon_French)                                                         |
 +----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-                                                                   
+
+#### Jacob Ritchie, Undergraduate Researcher
+
++-----------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| ![](https://i.stack.imgur.com/okDq7t.jpg)                       | | <b>Engineering Science, University of Toronto</b>                                        |
+|                                                                 | |  jacob.ritchie@mail.utoronto.ca                                                          |
++-----------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+                                                
                                                                    
 More to come (please see [positions](./positions.html))
