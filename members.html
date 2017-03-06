@@ -19,6 +19,9 @@
 <script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<link href="libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="libs/highlightjs-1.1/highlight.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -31,10 +34,6 @@
 </script>
 
 <style type="text/css">code{white-space: pre;}</style>
-<link rel="stylesheet"
-      href="libs/highlight/default.css"
-      type="text/css" />
-<script src="libs/highlight/highlight.js"></script>
 <style type="text/css">
   pre:not([class]) {
     background-color: white;
@@ -105,6 +104,7 @@ button.code-folding-btn:focus {
 }
 </style>
 
+
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
@@ -161,7 +161,6 @@ $(document).ready(function () {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
-<script src="libs/navigation-1.1/tabsets.js"></script>
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
@@ -208,7 +207,7 @@ $(document).ready(function () {
 
 
 <!---
-This is really annying to edit - the tables are really finicky about spaces
+This is really annying to edit - the tables are really finicky about spaces -maybe convert to something else - r markdown?
 -->
 <div id="leon-french-principal-investigator" class="section level3">
 <h3>Leon French, Principal Investigator</h3>
@@ -225,6 +224,7 @@ This is really annying to edit - the tables are really finicky about spaces
 </div></td>
 <td align="left"><p><b>Independent Scientist, Campbell Family Mental Health Research Institute at CAMH</b><br />
 <b>Assistant Professor (status only), Department of Psychiatry, University of Toronto</b><br />
+<b>Associate Member, Institute of Medical Science, University of Toronto</b><br />
 Toronto, Ontario, Canada<br />
  <a href="mailto:leon.french@camh.ca">leon.french@camh.ca</a><br />
  <a href="https://ca.linkedin.com/in/leonfrench">LinkedIn profile</a><br />
@@ -263,9 +263,13 @@ Toronto, Ontario, Canada<br />
 <script>
 
 // add bootstrap table styles to pandoc tables
-$(document).ready(function () {
+function bootstrapStylePandocTables() {
   $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
 });
+
 
 </script>
 

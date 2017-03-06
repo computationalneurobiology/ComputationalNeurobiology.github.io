@@ -3,7 +3,7 @@ output:
   html_document
 ---
 <!---
-This is really annying to edit - the tables are really finicky about spaces
+This is really annying to edit - the tables are really finicky about spaces -maybe convert to something else - r markdown?
 -->
 
 ### Leon French, Principal Investigator
@@ -11,6 +11,7 @@ This is really annying to edit - the tables are really finicky about spaces
 +----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | ![](./images/Leon.picture.jpg)               | | <b>Independent Scientist, Campbell Family Mental Health Research Institute at CAMH</b>                                                           |
 |                                              | | <b>Assistant Professor (status only), Department of Psychiatry, University of Toronto</b>                                            |
+|                                              | | <b>Associate Member, Institute of Medical Science, University of Toronto</b>                                            |
 |                                              | | Toronto, Ontario, Canada                                                                                                 |
 |                                              | |  leon.french@camh.ca                                                                                            |
 |                                              | |  [LinkedIn profile](https://ca.linkedin.com/in/leonfrench)                                                                               |
