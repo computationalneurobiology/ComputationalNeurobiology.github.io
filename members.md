@@ -4,6 +4,7 @@ output:
 ---
 <!---
 This is really annoying to edit - the tables are really finicky about spaces - maybe convert to something else - r markdown?
+The table widths are relative to the longest column, hence the &nbsp; &nbsp; padding to make sure alignment is right
 -->
 
 ### Leon French, Principal Investigator
@@ -21,10 +22,11 @@ This is really annoying to edit - the tables are really finicky about spaces - m
 
 #### Derek Howard, Research Analyst
 
-+-----------------------------------------------------------------+--------------------------------------------------------------------------------------------+
-| ![](./images/derek.jpeg)                                        | |  <b>MSc, University of Toronto</b>                                                       |
-|                                                                 | |  d(dot)howard(at)mail.utoronto.ca                                                    |
-+-----------------------------------------------------------------+--------------------------------------------------------------------------------------------+
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| ![](./images/derek.jpeg)                             | | <b>MSc, University of Toronto</b>                                                        |
+|                                                      | | d(dot)howard(at)mail.utoronto.ca                                                        |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
 
 \s\s
@@ -34,10 +36,11 @@ This is really annoying to edit - the tables are really finicky about spaces - m
 
 #### Jacob Ritchie, Undergraduate Researcher
 
-+-----------------------------------------------------------------+--------------------------------------------------------------------------------------------+
-| ![](https://i.stack.imgur.com/okDq7t.jpg)                       | | <b>Engineering Science, University of Toronto</b>                                        |
-|                                                                 | |  jacob.ritchie@mail.utoronto.ca                                                          |
-+-----------------------------------------------------------------+--------------------------------------------------------------------------------------------+
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| ![](https://i.stack.imgur.com/okDq7t.jpg)            | | <b>Engineering Science, University of Toronto</b>                                        |
+|                                                      | | jacob.ritchie@mail.utoronto.ca                                                          |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
                                                 
                                                                    
