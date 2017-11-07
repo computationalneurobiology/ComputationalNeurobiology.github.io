@@ -7,12 +7,12 @@ This is really annoying to edit - the tables are really finicky about spaces - m
 The table widths are relative to the longest column, hence the &nbsp; &nbsp; padding to make sure alignment is right
 -->
 
-### Leon French, Principal Investigator
+#### Leon French, Principal Investigator
 
 +----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | ![](./images/Leon.picture.jpg)               | | <b>Independent Scientist, Campbell Family Mental Health Research Institute at CAMH</b>                                                           |
 |                                              | | <b>Assistant Professor (status only), Department of Psychiatry, University of Toronto</b>                                            |
-|                                              | | <b>Restricted Associate Member (PAC), Institute of Medical Science, University of Toronto</b>                                            |
+|                                              | | <b> Associate Member, Institute of Medical Science, University of Toronto</b>                                            |
 |                                              | | Toronto, Ontario, Canada                                                                                                 |
 |                                              | |  leon.french@camh.ca                                                                                            |
 |                                              | |  [LinkedIn profile](https://ca.linkedin.com/in/leonfrench)                                                                               |
@@ -28,7 +28,7 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
-#### Justin Lee, Undergraduate project student
+#### Justin Lee, Undergraduate Project Student
 
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 |                                                      | | <b>BCB and Statistics program, University of Toronto</b>                                                        |
@@ -36,7 +36,7 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
-#### Alana Man, Undergraduate project student
+#### Alana Man, Undergraduate Project Student
 
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 | ![](./images/alana.jpg){ width=150px }               | | <b>BCB and Computer Science, University of Toronto</b>                                                        |
