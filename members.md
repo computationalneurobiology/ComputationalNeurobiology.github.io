@@ -44,6 +44,16 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
+&nbsp;
+
+#### Jenny Yin, Undergraduate Project Student
+
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| ![](./images/jenny.png){ width=150px }               | | <b>BCB and Computer Science, University of Toronto</b>                                                        |
+|                                                      | | jenny.yin@mail.utoronto.ca                                                        |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
 
 \s\s
 
