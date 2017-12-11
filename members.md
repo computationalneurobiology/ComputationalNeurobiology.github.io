@@ -31,7 +31,7 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 #### Justin Lee, Undergraduate Project Student
 
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
-|                                                      | | <b>BCB and Statistics program, University of Toronto</b>                                                        |
+|   ![](./images/justin.jpg){ width=150px }             | | <b>BCB and Statistics program, University of Toronto</b>                                                        |
 |                                                      | | chunhin.lee@mail.utoronto.ca                                                        |
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
