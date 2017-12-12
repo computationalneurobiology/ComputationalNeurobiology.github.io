@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -19,6 +19,9 @@
 <script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<link href="libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="libs/highlightjs-9.12.0/highlight.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -31,20 +34,18 @@
 </script>
 
 <style type="text/css">code{white-space: pre;}</style>
-<link rel="stylesheet"
-      href="libs/highlight/default.css"
-      type="text/css" />
-<script src="libs/highlight/highlight.js"></script>
 <style type="text/css">
   pre:not([class]) {
     background-color: white;
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -105,6 +106,7 @@ button.code-folding-btn:focus {
 }
 </style>
 
+
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
@@ -161,7 +163,6 @@ $(document).ready(function () {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
-<script src="libs/navigation-1.1/tabsets.js"></script>
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
@@ -209,19 +210,18 @@ $(document).ready(function () {
 
 <div id="apply-to-join-the-team" class="section level3">
 <h3>Apply to join the team!</h3>
-<p>Opportunities are available at various levels within the Neuroinformatics lab at CAMH. Please contact Dr. Leon French if interested (<a href="mailto:leon.french@camh.ca">leon.french@camh.ca</a>).</p>
+<p>Opportunities are available at various levels within the Computational Neurobiology lab at CAMH. Please contact Dr. Leon French if interested (<a href="mailto:leon.french@camh.ca">leon.french@camh.ca</a>).</p>
 <div id="graduate-students" class="section level4">
 <h4>Graduate Students</h4>
-<p>We recruiting graduate students with interests in bioinformatics, computational biology and neuroscience. Current programming ability is requested.</p>
+<p>We are recruiting graduate students with interests in bioinformatics, computational biology, and neuroscience.</p>
 </div>
 <div id="postdoctoral-fellows" class="section level4">
 <h4>Postdoctoral Fellows</h4>
-<p>We are hiring one postdoctoral fellow with experience in genomics and neuroscience. Current programming ability is requested with preference for Java and R. Details available at <a href="http://ca.indeed.com/job/research-fellow-neuroinformatics-ae5bbc60c67c5db5">indeed.com</a>.</p>
-<p>Graduate and postdoctoral positions are fully funded.</p>
+<p>Postdoctoral positions may be available. Please contact Dr. Leon French if interested (<a href="mailto:leon.french@camh.ca">leon.french@camh.ca</a>).</p>
 </div>
 <div id="undergraduate-project-courses" class="section level4">
 <h4>Undergraduate Project Courses</h4>
-<p>Focused projects that are suitable for undergraduate project courses undertaken at the University of Toronto. Please see my <a href="http://fromthedata.blogspot.ca/">research blog</a> for short project examples</p>
+<p>Focused projects that are suitable for undergraduate project courses undertaken at the University of Toronto.</p>
 </div>
 <div id="summer-and-co-op" class="section level4">
 <h4>Summer and Co-op</h4>
@@ -237,9 +237,13 @@ $(document).ready(function () {
 <script>
 
 // add bootstrap table styles to pandoc tables
-$(document).ready(function () {
+function bootstrapStylePandocTables() {
   $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
 });
+
 
 </script>
 
@@ -248,7 +252,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

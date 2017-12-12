@@ -6,21 +6,19 @@ output:
 
 ### Apply to join the team!
 
-Opportunities are available at various levels within the Neuroinformatics lab at CAMH. Please contact Dr. Leon French if interested (leon.french@camh.ca).
+Opportunities are available at various levels within the Computational Neurobiology lab at CAMH. Please contact Dr. Leon French if interested (leon.french@camh.ca).
 
 #### Graduate Students
 
-We recruiting graduate students with interests in bioinformatics, computational biology and neuroscience. Current programming ability is requested. 
+We are recruiting graduate students with interests in bioinformatics, computational biology, and neuroscience. 
 
 #### Postdoctoral Fellows
 
-We are hiring one postdoctoral fellow with experience in genomics and neuroscience. Current programming ability is requested with preference for Java and R. Details available at [indeed.com](http://ca.indeed.com/job/research-fellow-neuroinformatics-ae5bbc60c67c5db5).
-
-Graduate and postdoctoral positions are fully funded. 
+Postdoctoral positions may be available. Please contact Dr. Leon French if interested (leon.french@camh.ca).
 
 #### Undergraduate Project Courses
 
-Focused projects that are suitable for undergraduate project courses undertaken at the University of Toronto. Please see my [research blog](http://fromthedata.blogspot.ca/) for short project examples
+Focused projects that are suitable for undergraduate project courses undertaken at the University of Toronto. 
 
 #### Summer and Co-op
 
