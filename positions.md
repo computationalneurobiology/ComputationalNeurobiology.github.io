@@ -8,6 +8,8 @@ output:
 
 Opportunities are available at various levels within the Computational Neurobiology lab at CAMH. Please contact Dr. Leon French if interested (leon.french@camh.ca).
 
+Example projects are available at the [Research Interests](./research.html) page. For most projects the data and base software code is already avaialble, providing a fast start to new research. 
+
 #### Graduate Students
 
 We are recruiting graduate students with interests in bioinformatics, computational biology, and neuroscience. 
