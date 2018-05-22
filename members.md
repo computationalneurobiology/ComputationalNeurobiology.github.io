@@ -7,10 +7,10 @@ This is really annoying to edit - the tables are really finicky about spaces - m
 The table widths are relative to the longest column, hence the &nbsp; &nbsp; padding to make sure alignment is right
 -->
 
-#### Leon French, Principal Investigator
 
+#### Leon French, Principal Investigator  
 +----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| ![](./images/Leon.picture.jpg)               | | <b>Independent Scientist, Campbell Family Mental Health Research Institute at CAMH</b>                                                           |
+| ![](./images/Leon.picture.jpg)               | | <b>Independent Scientist, Campbell Family Mental Health Research Institute at CAMH</b>                                               |
 |                                              | | <b>Assistant Professor (status only), Department of Psychiatry, University of Toronto</b>                                            |
 |                                              | | <b> Associate Member, Institute of Medical Science, University of Toronto</b>                                            |
 |                                              | | Toronto, Ontario, Canada                                                                                                 |
@@ -20,6 +20,8 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 |                                              | |  [ResearchGate profile ](https://www.researchgate.net/profile/Leon_French)                                                         |
 +----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 
+- - -
+
 #### Derek Howard, Research Analyst
 
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
@@ -27,6 +29,21 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 |                                                      | | d(dot)howard(at)mail.utoronto.ca                                                        |
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+- - -
+
+#### Jenny Yin, Undergraduate Project Student
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| ![](./images/jenny.png){ width=150px }               | | <b>BCB and Computer Science, University of Toronto</b>                                                        |
+|                                                      | | jenny.yin@mail.utoronto.ca                                                        |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+- - -
+
+### Previous members
+
+- - -
 
 #### Justin Lee, Undergraduate Project Student
 
@@ -36,6 +53,8 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
+- - -
+
 #### Alana Man, Undergraduate Project Student
 
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
@@ -44,21 +63,7 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
-&nbsp;
-
-#### Jenny Yin, Undergraduate Project Student
-
-+------------------------------------------------------+--------------------------------------------------------------------------------------------+
-| ![](./images/jenny.png){ width=150px }               | | <b>BCB and Computer Science, University of Toronto</b>                                                        |
-|                                                      | | jenny.yin@mail.utoronto.ca                                                        |
-|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
-+------------------------------------------------------+--------------------------------------------------------------------------------------------+
-
-
-\s\s
-
-
-### Previous members
+- - -
 
 #### Jacob Ritchie, Undergraduate Researcher
 
@@ -68,6 +73,7 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
                                                 
+- - -
                                                                    
 More to come (please see [positions](./positions.html))
 
