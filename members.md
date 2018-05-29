@@ -41,6 +41,15 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 
 - - -
 
+#### Linwen Huang, Undergraduate Project Student
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| ![](./images/linwen.png){ width=150px }              | | <b>LMP and Computer Science, University of Toronto</b>                                                        |
+|                                                      | | linwenh.huang@mail.utoronto.ca                                                      |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+- - -
+
 ### Previous members
 
 - - -
