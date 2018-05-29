@@ -32,7 +32,7 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 
 - - -
 
-#### Jenny Yin, Undergraduate Project Student
+#### Jenny Yin, Undergraduate Summer Student
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 | ![](./images/jenny.png){ width=150px }               | | <b>BCB and Computer Science, University of Toronto</b>                                                        |
 |                                                      | | jenny.yin@mail.utoronto.ca                                                        |
