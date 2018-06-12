@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 output:
   html_document
@@ -50,6 +51,16 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 
 - - -
 
+#### Joelle Jee, Undergraduate Project Student
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| ![](./images/joelle.jpg){ width=150px }              | | <b>BCB, University of Toronto</b>                                                        |
+|                                                      | | joelle.jee@mail.utoronto.ca                                                      |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+- - -
+
+
 ### Previous members
 
 - - -
@@ -85,5 +96,6 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 - - -
                                                                    
 More to come (please see [positions](./positions.html))
+
 
 [Instructions to add yourself](https://github.com/computationalneurobiology/ComputationalNeurobiology.github.io/tree/master)
