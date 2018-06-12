@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 output:
   html_document
