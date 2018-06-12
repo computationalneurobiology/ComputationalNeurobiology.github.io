@@ -50,6 +50,16 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 
 - - -
 
+#### Joelle Jee, Undergraduate Project Student
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| ![](./images/joelle.jpg){ width=150px }              | | <b>BCB, University of Toronto</b>                                                        |
+|                                                      | | joelle.jee@mail.utoronto.ca                                                      |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+- - -
+
+
 ### Previous members
 
 - - -
