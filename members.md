@@ -32,6 +32,11 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 
 - - -
 
+
+
+### Previous members
+
+- - -
 #### Jenny Yin, Undergraduate Summer Student
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 | ![](./images/jenny.png){ width=150px }               | | <b>BCB and Computer Science, University of Toronto</b>                                                        |
@@ -56,11 +61,6 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 |                                                      | | joelle.jee@mail.utoronto.ca                                                      |
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
-
-- - -
-
-
-### Previous members
 
 - - -
 
