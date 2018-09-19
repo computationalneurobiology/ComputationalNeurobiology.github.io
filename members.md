@@ -9,16 +9,17 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 
 
 #### Leon French, Principal Investigator  
-+----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| ![](./images/Leon.picture.jpg)               | | <b>Independent Scientist, Campbell Family Mental Health Research Institute at CAMH</b>                                               |
-|                                              | | <b>Assistant Professor (status only), Department of Psychiatry, University of Toronto</b>                                            |
-|                                              | | <b> Associate Member, Institute of Medical Science, University of Toronto</b>                                            |
-|                                              | | Toronto, Ontario, Canada                                                                                                 |
-|                                              | |  leon.french@camh.ca                                                                                            |
-|                                              | |  [LinkedIn profile](https://ca.linkedin.com/in/leonfrench)                                                                               |
-|                                              | |  [Publication list on Google Scholar](https://scholar.google.ca/citations?hl=en&user=zBJxfPEAAAAJ&view_op=list_works&sortby=pubdate)         |
-|                                              | |  [ResearchGate profile ](https://www.researchgate.net/profile/Leon_French)                                                         |
-+----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+| ![](./images/Leon.picture.jpg)                 | | <b>Independent Scientist, Krembil Centre for Neuroinformatics, </b>                                                    |
+|                                                | | <b>Campbell Family Mental Health Research Institute at CAMH</b>                                               |
+|                                                | | <b>Assistant Professor (status only), Department of Psychiatry, University of Toronto</b>                                            |
+|                                                | | <b> Associate Member, Institute of Medical Science, University of Toronto</b>                                            |
+|                                                | | Toronto, Ontario, Canada                                                                                                 |
+|                                                | |  leon.french@camh.ca                                                                                            |
+|                                                | |  [LinkedIn profile](https://ca.linkedin.com/in/leonfrench)                                                                               |
+|                                                | |  [Publication list on Google Scholar](https://scholar.google.ca/citations?hl=en&user=zBJxfPEAAAAJ&view_op=list_works&sortby=pubdate)         |
+|                                                | |  [ResearchGate profile ](https://www.researchgate.net/profile/Leon_French)                                                         |
++------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 
 - - -
 
@@ -33,14 +34,14 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 - - -
 
 #### Pegah Abed-Esfahani, Research Analyst  
-+----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| ![](./images/pegah.png){ width=150px }       | | <b>Research Analyst in Machine Learning, Krembil Centre for Neuroinformatics at CAMH</b>                                               |
-|                                              | | <b>MSc, Computer Science, University of Toronto</b>                                            |
-|                                              | | Toronto, Ontario, Canada                                                                                                 |
-|                                              | | pegah.abedesfahani@mail.utoronto.ca                                                                                             |
-|                                              | | [LinkedIn profile](https://www.linkedin.com/in/pegah-abed/) 
-|                                              | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
-+----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| ![](./images/pegah.png){ width=150px }               | | <b>Research Analyst in Machine Learning</b>                                                        |
+|                                                      | | <b>MSc, Computer Science, University of Toronto</b>                                                        |
+|                                                      | | pegah.abedesfahani@mail.utoronto.ca                                                                                                |
+|                                                      | | [LinkedIn profile](https://www.linkedin.com/in/pegah-abed/)                                                                                                |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
 
 - - -
 

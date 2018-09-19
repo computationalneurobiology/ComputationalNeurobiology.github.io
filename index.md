@@ -5,7 +5,7 @@ output:
 
 # Computational Neurobiology Laboratory
 
-#### Campbell Family Mental Health Research Institute at [CAMH](http://www.camh.ca/)
+#### Krembil Centre for Neuroinformatics and Campbell Family Mental Health Research Institute at [CAMH](http://www.camh.ca/)
 
 We seek to understand diseases of the brain by mining neuroscience resources for deeper insight into brain anatomy, development and illness. Informatics methods are used to exploit the increasing amount of neuroscience data. Specifically, we focus on connectivity, gene expression and epigenetics across the genome and the brain. We employ multifaceted approaches that gain information by using data that crosses scales and species. 
 
