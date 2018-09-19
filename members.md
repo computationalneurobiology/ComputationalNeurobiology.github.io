@@ -32,7 +32,17 @@ The table widths are relative to the longest column, hence the &nbsp; &nbsp; pad
 
 - - -
 
+#### Pegah Abed-Esfahani, Research Analyst  
++----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+| ![](./images/pegah.png){ width=150px }       | | <b>Research Analyst in Machine Learning, Krembil Centre for Neuroinformatics at CAMH</b>                                               |
+|                                              | | <b>MSc, Compute Science, University of Toronto</b>                                            |
+|                                              | | Toronto, Ontario, Canada                                                                                                 |
+|                                              | | pegah.abedesfahani@mail.utoronto.ca                                                                                             |
+|                                              | | [LinkedIn profile](https://www.linkedin.com/in/pegah-abed/) 
+|                                              | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 
+- - -
 
 ### Previous members
 
