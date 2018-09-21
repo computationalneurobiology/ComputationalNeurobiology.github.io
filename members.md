@@ -3,10 +3,11 @@ output:
   html_document
 ---
 <!---
+README:
 This is really annoying to edit - the tables are really finicky about spaces - maybe convert to something else - r markdown?
 The table widths are relative to the longest column, hence the &nbsp; &nbsp; padding to make sure alignment is right
+Also it's best to edit it with a text editor that doesn't wrap lines
 -->
-
 
 #### Leon French, Principal Investigator  
 +------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
