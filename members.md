@@ -54,7 +54,15 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
+- - -
 
+#### Minh An Ho, Undergraduate Project Student
+
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+|   ![](./images/minhan.jpg){ width=150px }            | | <b>BCB and Statistics program, University of Toronto</b>                                                        |
+|                                                      | | minhan.ho@mail.utoronto.ca                                                        |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
 - - -
 
