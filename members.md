@@ -66,6 +66,15 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 
 - - -
 
+#### Xindi Zhang, Undergraduate Project Student
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| ![](./images/xindi.jpg){ width=150px }               | | <b>BCB and Biology, University of Toronto</b>                                                        |
+|                                                      | | Xindi.Zhang@mail.utoronto.ca                                                        |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+- - -
+
 ### Previous members
 
 - - -
