@@ -3,8 +3,9 @@ output:
   html_document
 ---
 
-### Online tools
+### Online tools - mostly all are prototype versions
 * [Polygenic celltypes](https://brain.shinyapps.io/polygenic_celltypes/): Polygenic celltype tester for the mouse nervous system
+* [Polygenic layers](https://brain.shinyapps.io/polygenic_layers/): Polygenic developmental layer tester for human and macaque cortex
 * [HBASets](https://hbaset.msl.ubc.ca/): a tool for multigene expression mapping in the human brain
 * [WhiteTextWeb](https://whitetext.msl.ubc.ca/) indexes connectivity statements in neuroscience literature [source]
 * [Excross](https://excross.msl.ubc.ca/): a tool for multigene expression mapping in the mouse brain
