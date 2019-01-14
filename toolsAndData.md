@@ -17,3 +17,11 @@ output:
 * [WhiteText Project](http://www.chibi.ubc.ca/WhiteText/): text mining for neuroanatomy
 * [ABAMS Project](https://github.com/leonfrench/ABAMS/tree/master/BAMSandAllen): tools to analyze gene expression and connectivity in the rodent brain
 * [Freesurfer view of the cortical transcriptome](http://figshare.com/articles/A_FreeSurfer_view_of_the_cortical_transcriptome_generated_from_the_Allen_Human_Brain_Atlas/1439749)
+
+### Relevant local mailing lists and event pages
+
+* [TorBUG](https://lists.torbug.org/mailman/listinfo/announce)
+* [Collaborative Program in Neuroscience - CPIN](http://www.neuroscience.utoronto.ca/aboutus/join-cpin.htm) 
+* [The Krembil Computational Neuroscience (KCN) Events](https://sites.google.com/site/krembilcompneuro/home/register)
+* [Statistical methods for genetics and genomics (not sure how to get on list)](https://stage.utoronto.ca/home/isss)
+* [Vector Institute (not sure how to get on list)](https://vectorinstitute.ai/#events)
