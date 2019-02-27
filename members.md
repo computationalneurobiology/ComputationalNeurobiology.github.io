@@ -45,7 +45,7 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 
 - - -
 
-#### Wennie Wu, Master's Student
+#### Wennie Wu, Master's Student (co-supervised by Dr. Etienne Sibille)
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 | ![](./images/wennie.jpg){ width=150px }              | | <b>Master's Student</b>                                                        |
 |                                                      | | <b>BSc, Biomedical Computing, Queen's University</b>                                                        |

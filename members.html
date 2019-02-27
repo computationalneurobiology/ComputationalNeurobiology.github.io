@@ -101,8 +101,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -118,7 +124,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -138,6 +143,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -159,18 +201,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -227,15 +328,15 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 <img src="images/Leon.picture.jpg" />
 
 </div></td>
-<td><p><b>Independent Scientist, Krembil Centre for Neuroinformatics, </b><br />
-<b>Campbell Family Mental Health Research Institute at CAMH</b><br />
-<b>Assistant Professor (status only), Department of Psychiatry, University of Toronto</b><br />
-<b> Associate Member, Institute of Medical Science, University of Toronto</b><br />
-Toronto, Ontario, Canada<br />
- <a href="mailto:leon.french@camh.ca">leon.french@camh.ca</a><br />
- <a href="https://ca.linkedin.com/in/leonfrench">LinkedIn profile</a><br />
- <a href="https://scholar.google.ca/citations?hl=en&amp;user=zBJxfPEAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Publication list on Google Scholar</a><br />
- <a href="https://www.researchgate.net/profile/Leon_French">ResearchGate profile</a></p></td>
+<td><div style="white-space: pre-line;"><b>Independent Scientist, Krembil Centre for Neuroinformatics, </b>
+<b>Campbell Family Mental Health Research Institute at CAMH</b>
+<b>Assistant Professor (status only), Department of Psychiatry, University of Toronto</b>
+<b> Associate Member, Institute of Medical Science, University of Toronto</b>
+Toronto, Ontario, Canada
+ <a href="mailto:leon.french@camh.ca">leon.french@camh.ca</a>
+ <a href="https://ca.linkedin.com/in/leonfrench">LinkedIn profile</a>
+ <a href="https://scholar.google.ca/citations?hl=en&amp;user=zBJxfPEAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Publication list on Google Scholar</a>
+ <a href="https://www.researchgate.net/profile/Leon_French">ResearchGate profile</a></div></td>
 </tr>
 </tbody>
 </table>
@@ -254,9 +355,9 @@ Toronto, Ontario, Canada<br />
 <img src="images/derek.jpeg" />
 
 </div></td>
-<td><p><b>MSc, University of Toronto</b><br />
-d(dot)howard(at)mail.utoronto.ca<br />
-                                                                                         </p></td>
+<td><div style="white-space: pre-line;"><b>MSc, University of Toronto</b>
+d(dot)howard(at)mail.utoronto.ca
+                                                                                         </div></td>
 </tr>
 </tbody>
 </table>
@@ -275,18 +376,18 @@ d(dot)howard(at)mail.utoronto.ca<br />
 <img src="images/pegah.png" width="150" />
 
 </div></td>
-<td><p><b>Research Analyst in Machine Learning</b><br />
-<b>MSc, Computer Science, University of Toronto</b><br />
-<a href="mailto:pegah.abedesfahani@mail.utoronto.ca">pegah.abedesfahani@mail.utoronto.ca</a><br />
-<a href="https://www.linkedin.com/in/pegah-abed/">LinkedIn profile</a><br />
-                                                                                         </p></td>
+<td><div style="white-space: pre-line;"><b>Research Analyst in Machine Learning</b>
+<b>MSc, Computer Science, University of Toronto</b>
+<a href="mailto:pegah.abedesfahani@mail.utoronto.ca">pegah.abedesfahani@mail.utoronto.ca</a>
+<a href="https://www.linkedin.com/in/pegah-abed/">LinkedIn profile</a>
+                                                                                         </div></td>
 </tr>
 </tbody>
 </table>
 <hr />
 </div>
-<div id="wennie-wu-masters-student" class="section level4">
-<h4>Wennie Wu, Master’s Student</h4>
+<div id="wennie-wu-masters-student-co-supervised-by-dr.etienne-sibille" class="section level4">
+<h4>Wennie Wu, Master’s Student (co-supervised by Dr. Etienne Sibille)</h4>
 <table>
 <colgroup>
 <col width="37%" />
@@ -298,11 +399,11 @@ d(dot)howard(at)mail.utoronto.ca<br />
 <img src="images/wennie.jpg" width="150" />
 
 </div></td>
-<td><p><b>Master’s Student</b><br />
-<b>BSc, Biomedical Computing, Queen’s University</b><br />
-<a href="mailto:wennie.wu@mail.utoronto.ca">wennie.wu@mail.utoronto.ca</a><br />
-<a href="https://www.linkedin.com/in/wennie-wu-047755142/">LinkedIn profile</a><br />
-                                                                                         </p></td>
+<td><div style="white-space: pre-line;"><b>Master’s Student</b>
+<b>BSc, Biomedical Computing, Queen’s University</b>
+<a href="mailto:wennie.wu@mail.utoronto.ca">wennie.wu@mail.utoronto.ca</a>
+<a href="https://www.linkedin.com/in/wennie-wu-047755142/">LinkedIn profile</a>
+                                                                                         </div></td>
 </tr>
 </tbody>
 </table>
@@ -321,9 +422,9 @@ d(dot)howard(at)mail.utoronto.ca<br />
 <img src="images/minhan.jpg" width="150" />
 
 </div></td>
-<td><p><b>BCB and Statistics program, University of Toronto</b><br />
-<a href="mailto:minhan.ho@mail.utoronto.ca">minhan.ho@mail.utoronto.ca</a><br />
-                                                                                         </p></td>
+<td><div style="white-space: pre-line;"><b>BCB and Statistics program, University of Toronto</b>
+<a href="mailto:minhan.ho@mail.utoronto.ca">minhan.ho@mail.utoronto.ca</a>
+                                                                                         </div></td>
 </tr>
 </tbody>
 </table>
@@ -342,9 +443,9 @@ d(dot)howard(at)mail.utoronto.ca<br />
 <img src="images/xindi.jpg" width="150" />
 
 </div></td>
-<td><p><b>BCB and Biology, University of Toronto</b><br />
-<a href="mailto:Xindi.Zhang@mail.utoronto.ca">Xindi.Zhang@mail.utoronto.ca</a><br />
-                                                                                         </p></td>
+<td><div style="white-space: pre-line;"><b>BCB and Biology, University of Toronto</b>
+<a href="mailto:Xindi.Zhang@mail.utoronto.ca">Xindi.Zhang@mail.utoronto.ca</a>
+                                                                                         </div></td>
 </tr>
 </tbody>
 </table>
@@ -366,9 +467,9 @@ d(dot)howard(at)mail.utoronto.ca<br />
 <img src="images/jenny.png" width="150" />
 
 </div></td>
-<td><p><b>BCB and Computer Science, University of Toronto</b><br />
-<a href="mailto:jenny.yin@mail.utoronto.ca">jenny.yin@mail.utoronto.ca</a><br />
-                                                                                         </p></td>
+<td><div style="white-space: pre-line;"><b>BCB and Computer Science, University of Toronto</b>
+<a href="mailto:jenny.yin@mail.utoronto.ca">jenny.yin@mail.utoronto.ca</a>
+                                                                                         </div></td>
 </tr>
 </tbody>
 </table>
@@ -387,9 +488,9 @@ d(dot)howard(at)mail.utoronto.ca<br />
 <img src="images/linwen.png" width="150" />
 
 </div></td>
-<td><p><b>LMP and Computer Science, University of Toronto</b><br />
-<a href="mailto:linwenh.huang@mail.utoronto.ca">linwenh.huang@mail.utoronto.ca</a><br />
-                                                                                         </p></td>
+<td><div style="white-space: pre-line;"><b>LMP and Computer Science, University of Toronto</b>
+<a href="mailto:linwenh.huang@mail.utoronto.ca">linwenh.huang@mail.utoronto.ca</a>
+                                                                                         </div></td>
 </tr>
 </tbody>
 </table>
@@ -408,9 +509,9 @@ d(dot)howard(at)mail.utoronto.ca<br />
 <img src="images/joelle.JPG" width="150" />
 
 </div></td>
-<td><p><b>BCB, University of Toronto</b><br />
-<a href="mailto:joelle.jee@mail.utoronto.ca">joelle.jee@mail.utoronto.ca</a><br />
-                                                                                         </p></td>
+<td><div style="white-space: pre-line;"><b>BCB, University of Toronto</b>
+<a href="mailto:joelle.jee@mail.utoronto.ca">joelle.jee@mail.utoronto.ca</a>
+                                                                                         </div></td>
 </tr>
 </tbody>
 </table>
@@ -429,9 +530,9 @@ d(dot)howard(at)mail.utoronto.ca<br />
 <img src="images/justin.jpg" width="150" />
 
 </div></td>
-<td><p><b>BCB and Statistics program, University of Toronto</b><br />
-<a href="mailto:chunhin.lee@mail.utoronto.ca">chunhin.lee@mail.utoronto.ca</a><br />
-                                                                                         </p></td>
+<td><div style="white-space: pre-line;"><b>BCB and Statistics program, University of Toronto</b>
+<a href="mailto:chunhin.lee@mail.utoronto.ca">chunhin.lee@mail.utoronto.ca</a>
+                                                                                         </div></td>
 </tr>
 </tbody>
 </table>
@@ -450,9 +551,9 @@ d(dot)howard(at)mail.utoronto.ca<br />
 <img src="images/alana.jpg" width="150" />
 
 </div></td>
-<td><p><b>BCB and Computer Science, University of Toronto</b><br />
-<a href="mailto:alana.man@mail.utoronto.ca">alana.man@mail.utoronto.ca</a><br />
-                                                                                         </p></td>
+<td><div style="white-space: pre-line;"><b>BCB and Computer Science, University of Toronto</b>
+<a href="mailto:alana.man@mail.utoronto.ca">alana.man@mail.utoronto.ca</a>
+                                                                                         </div></td>
 </tr>
 </tbody>
 </table>
@@ -471,9 +572,9 @@ d(dot)howard(at)mail.utoronto.ca<br />
 <img src="https://i.stack.imgur.com/okDq7t.jpg" />
 
 </div></td>
-<td><p><b>Engineering Science, University of Toronto</b><br />
-<a href="mailto:jacob.ritchie@mail.utoronto.ca">jacob.ritchie@mail.utoronto.ca</a><br />
-                                                                                         </p></td>
+<td><div style="white-space: pre-line;"><b>Engineering Science, University of Toronto</b>
+<a href="mailto:jacob.ritchie@mail.utoronto.ca">jacob.ritchie@mail.utoronto.ca</a>
+                                                                                         </div></td>
 </tr>
 </tbody>
 </table>
