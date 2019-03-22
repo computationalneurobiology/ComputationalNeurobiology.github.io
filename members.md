@@ -75,6 +75,16 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 
 - - -
 
+#### Sejal Patel, Postdoctoral Fellow 
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| ![](./images/sejal.jpg){ width=150px }               | | <b>PhD, University of Toronto</b>                                                        |
+|                                                      | | sejal.patel@camh.ca                                                                                                |
+|                                                      | | [LinkedIn profile](https://ca.linkedin.com/in/sejal-patel-9a9847165/)                                                                                                |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+- - -
+
 ### Previous members
 
 - - -
