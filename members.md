@@ -90,7 +90,7 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 - - -
 #### Jenny Yin, Undergraduate Summer Student
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
-| ![](./images/jenny.png){ width=150px }               | | <b>BCB and Computer Science, University of Toronto</b>                                                        |
+|                                                      | | <b>BCB and Computer Science, University of Toronto</b>                                                        |
 |                                                      | | jenny.yin@mail.utoronto.ca                                                        |
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
@@ -99,7 +99,7 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 
 #### Linwen Huang, Undergraduate Project Student
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
-| ![](./images/linwen.png){ width=150px }              | | <b>LMP and Computer Science, University of Toronto</b>                                                        |
+|                                                      | | <b>LMP and Computer Science, University of Toronto</b>                                                        |
 |                                                      | | linwenh.huang@mail.utoronto.ca                                                      |
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
@@ -108,7 +108,7 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 
 #### Joelle Jee, Undergraduate Project Student
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
-| ![](./images/joelle.jpg){ width=150px }              | | <b>BCB, University of Toronto</b>                                                        |
+|                                                      | | <b>BCB, University of Toronto</b>                                                        |
 |                                                      | | joelle.jee@mail.utoronto.ca                                                      |
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
@@ -118,7 +118,7 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 #### Justin Lee, Undergraduate Project Student
 
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
-|   ![](./images/justin.jpg){ width=150px }            | | <b>BCB and Statistics program, University of Toronto</b>                                                        |
+|                                                      | | <b>BCB and Statistics program, University of Toronto</b>                                                        |
 |                                                      | | chunhin.lee@mail.utoronto.ca                                                        |
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
@@ -128,7 +128,7 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 #### Alana Man, Undergraduate Project Student
 
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
-| ![](./images/alana.jpg){ width=150px }               | | <b>BCB and Computer Science, University of Toronto</b>                                                        |
+|                                                      | | <b>BCB and Computer Science, University of Toronto</b>                                                        |
 |                                                      | | alana.man@mail.utoronto.ca                                                        |
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
@@ -138,7 +138,7 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 #### Jacob Ritchie, Undergraduate Researcher
 
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
-| ![](https://i.stack.imgur.com/okDq7t.jpg)            | | <b>Engineering Science, University of Toronto</b>                                        |
+|                                                      | | <b>Engineering Science, University of Toronto</b>                                        |
 |                                                      | | jacob.ritchie@mail.utoronto.ca                                                          |
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
