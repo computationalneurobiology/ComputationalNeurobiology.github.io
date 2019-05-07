@@ -18,6 +18,7 @@ output:
 
 ### Online:
 
+| Email: leon.french@utoronto.ca
 | Email: leon.french@camh.ca
 | [Website](http://neuroinformaticslab.github.io)
 | [GitHub](https://github.com/computationalneurobiology)
