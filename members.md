@@ -56,24 +56,6 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 
 - - -
 
-#### Minh An Ho, Undergraduate Project Student
-
-+------------------------------------------------------+--------------------------------------------------------------------------------------------+
-|   ![](./images/minhan.jpg){ width=150px }            | | <b>BCB and Statistics program, University of Toronto</b>                                                        |
-|                                                      | | minhan.ho@mail.utoronto.ca                                                        |
-|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
-+------------------------------------------------------+--------------------------------------------------------------------------------------------+
-
-- - -
-
-#### Xindi Zhang, Undergraduate Project Student
-+------------------------------------------------------+--------------------------------------------------------------------------------------------+
-| ![](./images/xindi.jpg){ width=150px }               | | <b>BCB and Biology, University of Toronto</b>                                                        |
-|                                                      | | Xindi.Zhang@mail.utoronto.ca                                                        |
-|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
-+------------------------------------------------------+--------------------------------------------------------------------------------------------+
-
-- - -
 
 #### Sejal Patel, Postdoctoral Fellow 
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
@@ -86,6 +68,24 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 - - -
 
 ### Previous members
+
+#### Minh An Ho, Undergraduate Project Student
+
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+|                                                      | | <b>BCB and Statistics program, University of Toronto</b>                                                        |
+|                                                      | | minhan.ho@mail.utoronto.ca                                                        |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+- - -
+
+#### Xindi Zhang, Undergraduate Project Student
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+|                                                      | | <b>BCB and Biology, University of Toronto</b>                                                        |
+|                                                      | | Xindi.Zhang@mail.utoronto.ca                                                        |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
 
 - - -
 #### Jenny Yin, Undergraduate Summer Student
