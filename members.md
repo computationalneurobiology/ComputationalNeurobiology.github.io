@@ -67,7 +67,7 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 
 - - -
 
-#### Alex Marin , Undergraduate Project Student
+#### Alex Marin, Undergraduate Project Student
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 | ![](./images/alex.jpg){ width=150px }                | | <b>Fundamental Genetics Specialist, University of Toronto</b>                              |
 |                                                      | | alex.marin@mail.utoronto.ca                                                                                                |
