@@ -5,7 +5,7 @@ output:
 
 # Computational Neurobiology Laboratory
 
-#### Krembil Centre for Neuroinformatics and Campbell Family Mental Health Research Institute at [CAMH](http://www.camh.ca/)
+<a href="http://krembilneuroinformatics.ca"><img src="./images/CAMH_Horz_logo_w_Krembil_RGB.png" width="350"></a>
 
 Led by Leon French, this laboratory seeks to understand diseases of the brain by mining neuroscience resources for deeper insight into brain anatomy, development and illness. Informatics methods are used to exploit the increasing amount of neuroscience data. Specifically, we focus on connectivity, gene expression and epigenetics across the genome and the brain. We employ multifaceted approaches that gain information by using data that crosses scales and species. 
 

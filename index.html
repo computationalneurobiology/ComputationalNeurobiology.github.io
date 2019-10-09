@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -80,9 +81,7 @@ h6 {
 
 <link rel="stylesheet" href="includes/main.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -96,7 +95,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -201,8 +199,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -259,20 +255,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -311,15 +304,13 @@ $(document).ready(function () {
 
 <div id="computational-neurobiology-laboratory" class="section level1">
 <h1>Computational Neurobiology Laboratory</h1>
-<div id="krembil-centre-for-neuroinformatics-and-campbell-family-mental-health-research-institute-at-camh" class="section level4">
-<h4>Krembil Centre for Neuroinformatics and Campbell Family Mental Health Research Institute at <a href="http://www.camh.ca/">CAMH</a></h4>
+<p><a href="http://krembilneuroinformatics.ca"><img src="images/CAMH_Horz_logo_w_Krembil_RGB.png" width="350"></a></p>
 <p>Led by Leon French, this laboratory seeks to understand diseases of the brain by mining neuroscience resources for deeper insight into brain anatomy, development and illness. Informatics methods are used to exploit the increasing amount of neuroscience data. Specifically, we focus on connectivity, gene expression and epigenetics across the genome and the brain. We employ multifaceted approaches that gain information by using data that crosses scales and species.</p>
 <div class="figure">
 <img src="images/CNR1-white.resize.png" />
 
 </div>
 <p>Leon French and Tomáš Paus. A FreeSurfer view of the cortical transcriptome generated from the Allen Human Brain Atlas. <a href="http://journal.frontiersin.org/article/10.3389/fnins.2015.00323/full">Frontiers in Neuroscience, Neurogenomics section</a>, August 24, 2015.</p>
-</div>
 </div>
 
 
@@ -339,6 +330,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
