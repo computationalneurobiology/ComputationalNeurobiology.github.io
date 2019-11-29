@@ -76,6 +76,14 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 
 - - -
 
+#### Ethan Kim, Master's Student
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| ![](./images/ethan.jpg){ width=150px }                | | <b>Master's Student,</b>                                                                 |
+|                                                      | | <b>H.B.Sc, Neuroscience and Molecular Biology, University of Toronto</b>                                                        |
+|                                                      | | ethan.kim@mail.utoronto.ca                                                                                                |                                                                                          |
+|                                                      | | [LinkedIn profile](https://www.linkedin.com/in/ethan-kim-465890113/)                                                                                                |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
 ### Previous members
 
 #### Minh An Ho, Undergraduate Project Student
