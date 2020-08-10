@@ -67,14 +67,6 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 
 - - -
 
-#### Alex Marin, Undergraduate Project Student
-+------------------------------------------------------+--------------------------------------------------------------------------------------------+
-| ![](./images/alex.jpg){ width=150px }                | | <b>Fundamental Genetics Specialist, University of Toronto</b>                              |
-|                                                      | | alex.marin@mail.utoronto.ca                                                                                                |
-|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
-+------------------------------------------------------+--------------------------------------------------------------------------------------------+
-
-- - -
 
 #### Ethan Kim, Master's Student
 +------------------------------------------------------+----------------------------------------------------------------------------------------------------------+
@@ -93,12 +85,20 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 |                                                      | | <b>Masters of Bioinformatics, University of Guelph</b>                                                        |
-|                                                      | | ccunha@uoguelph.ca                                                                | 
+|                                                      | | ccunha@uoguelph.ca                                                                         | 
 |                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
 - - -
 
+#### Alex Marin, Undergraduate Project Student
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+|                                                      | | <b>Fundamental Genetics Specialist, University of Toronto</b>                              |
+|                                                      | | alex.marin@mail.utoronto.ca                                                                                                |
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+- - -
 
 #### Minh An Ho, Undergraduate Project Student
 

@@ -8,6 +8,8 @@ output:
 
 Opportunities are available at various levels within the Computational Neurobiology lab at CAMH. Please contact Dr. Leon French if interested (leon.french@camh.ca).
 
+As an employment equity employer, the Computational Neurobiology lab, and more broadly CAMH, actively seeks Aboriginal peoples, visible minorities, women, people with disabilities (including people with who have experienced mental health and substance use challenges), and additional diverse identities to join our team.
+
 Example projects are available at the [Research Interests](./research.html) page. For most projects the data and base software code is already avaialble, providing a fast start to new research. 
 
 #### Graduate Students
