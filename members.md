@@ -92,6 +92,16 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 
 ### Previous members
 
+#### Clinton Royce Cunha, Graduate Project Student
+
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+|                                                      | | <b>Masters of Bioinformatics, University of Guelph</b>                                                        |
+|                                                      | | ccunha@uoguelph.ca                                                                         | 
+|                                                      | |  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
++------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+- - -
+
 #### Alex Marin, Undergraduate Project Student
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 |                                                      | | <b>Fundamental Genetics Specialist, University of Toronto</b>                              |
@@ -100,7 +110,6 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 +------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
 - - -
-
 
 #### Minh An Ho, Undergraduate Project Student
 
