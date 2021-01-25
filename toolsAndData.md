@@ -4,7 +4,7 @@ output:
 ---
 
 ### Online tools - mostly all are prototype versions
-* [Polygenic tisse](https://derekhoward.shinyapps.io/gtex_enrichment/): Polygenic celltype tester for the human GTEx tissues
+* [Polygenic tissue](https://derekhoward.shinyapps.io/gtex_enrichment/): Polygenic celltype tester for the human GTEx tissues
 * [Polygenic celltypes](https://brain.shinyapps.io/polygenic_celltypes/): Polygenic celltype tester for the mouse nervous system
 * [Polygenic developmental zones](https://brain.shinyapps.io/polygenic_layers/): Polygenic developmental layer tester for human and macaque cortex
 * [LaminaRGeneVis](https://ethanhkim.shinyapps.io/transcriptome_app/): Gene expression enrichment tester for human cortical layers
