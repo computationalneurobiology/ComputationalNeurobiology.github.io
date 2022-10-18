@@ -3,6 +3,7 @@ output:
   html_document
 ---
 
+
 # Computational Neurobiology Laboratory
 
 Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory sought to understand diseases of the brain by mining neuroscience resources for deeper insight into brain anatomy, development and illness. Specifically, we focused on connectivity, gene expression across the genome, brain, and body. We employed multifaceted approaches that gain information by using data that crosses scales and species. 
