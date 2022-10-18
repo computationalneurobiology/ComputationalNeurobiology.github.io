@@ -11,14 +11,24 @@
 
 
 
-<title></title>
+<title>members</title>
 
-<script src="libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="libs/navigation-1.1/tabsets.js"></script>
 <link href="libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="libs/highlightjs-9.12.0/highlight.js"></script>
@@ -33,12 +43,16 @@
 
 </script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -51,32 +65,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="includes/main.css" type="text/css" />
 
@@ -87,10 +77,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -107,40 +93,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -168,7 +130,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -180,7 +142,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -191,10 +153,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -206,7 +181,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -284,17 +258,14 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="research.html">Research</a></li>
-        <li><a href="positions.html">Positions</a></li>
-        <li><a href="members.html">Members</a></li>
         <li><a href="publications.html">Publications</a></li>
-        <li><a href="toolsAndData.html">Tools and Data</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="members.html">Members</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -308,33 +279,8 @@ This is really annoying to edit - the tables are really finicky about spaces - m
 The table widths are relative to the longest column, hence the &nbsp; &nbsp; padding to make sure alignment is right
 Also it's best to edit it with a text editor that doesn't wrap lines
 -->
-<div id="leon-french-principal-investigator" class="section level4">
-<h4>Leon French, Principal Investigator</h4>
-<table>
-<colgroup>
-<col width="26%" />
-<col width="73%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="figure">
-<img src="images/Leon.picture.jpg" />
-
-</div></td>
-<td><div style="white-space: pre-line;"><b>Independent Scientist, Krembil Centre for Neuroinformatics, </b>
-<b>Campbell Family Mental Health Research Institute at CAMH</b>
-<b>Assistant Professor (status only), Department of Psychiatry, University of Toronto</b>
-<b> Associate Member, Institute of Medical Science, University of Toronto</b>
-Toronto, Ontario, Canada
- <a href="mailto:leon.french@camh.ca">leon.french@camh.ca</a>
- <a href="https://ca.linkedin.com/in/leonfrench">LinkedIn profile</a>
- <a href="https://scholar.google.ca/citations?hl=en&amp;user=zBJxfPEAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Publication list on Google Scholar</a>
- <a href="https://www.researchgate.net/profile/Leon_French">ResearchGate profile</a></div></td>
-</tr>
-</tbody>
-</table>
-<hr />
-</div>
+<div id="previous-members" class="section level3">
+<h3>Previous members</h3>
 <div id="derek-howard-research-analyst" class="section level4">
 <h4>Derek Howard, Research Analyst</h4>
 <table>
@@ -344,13 +290,11 @@ Toronto, Ontario, Canada
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><div class="figure">
-<img src="images/derek.jpeg" />
-
-</div></td>
-<td><div style="white-space: pre-line;"><b>MSc, University of Toronto</b>
-d(dot)howard(at)mail.utoronto.ca
-                                                                                         </div></td>
+<td><img src="images/derek.jpeg" /></td>
+<td><div class="line-block"><b>MSc, University of Toronto</b><br />
+d(dot)howard(at)mail.utoronto.ca<br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
@@ -365,22 +309,25 @@ d(dot)howard(at)mail.utoronto.ca
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><div class="figure">
-<img src="images/pegah.png" width="150" />
-
-</div></td>
-<td><div style="white-space: pre-line;"><b>Research Analyst in Machine Learning</b>
-<b>MSc, Computer Science, University of Toronto</b>
-<a href="mailto:pegah.abedesfahani@mail.utoronto.ca">pegah.abedesfahani@mail.utoronto.ca</a>
-<a href="https://www.linkedin.com/in/pegah-abed/">LinkedIn profile</a>
-                                                                                         </div></td>
+<td><img src="images/pegah.png" width="150" /></td>
+<td><div class="line-block"><b>Research Analyst in Machine
+Learning</b><br />
+<b>MSc, Computer Science, University of Toronto</b><br />
+<a href="mailto:pegah.abedesfahani@mail.utoronto.ca"
+class="email">pegah.abedesfahani@mail.utoronto.ca</a><br />
+<a href="https://www.linkedin.com/in/pegah-abed/">LinkedIn
+profile</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
 <hr />
 </div>
-<div id="wennie-wu-masters-student-co-supervised-by-dr.etienne-sibille" class="section level4">
-<h4>Wennie Wu, Master’s Student (co-supervised by Dr. Etienne Sibille)</h4>
+<div id="wennie-wu-masters-student-co-supervised-by-dr.-etienne-sibille"
+class="section level4">
+<h4>Wennie Wu, Master’s Student (co-supervised by Dr. Etienne
+Sibille)</h4>
 <table>
 <colgroup>
 <col width="37%" />
@@ -388,15 +335,15 @@ d(dot)howard(at)mail.utoronto.ca
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><div class="figure">
-<img src="images/wennie.jpg" width="150" />
-
-</div></td>
-<td><div style="white-space: pre-line;"><b>Master’s Student</b>
-<b>BSc, Biomedical Computing, Queen’s University</b>
-<a href="mailto:wennie.wu@mail.utoronto.ca">wennie.wu@mail.utoronto.ca</a>
-<a href="https://www.linkedin.com/in/wennie-wu-047755142/">LinkedIn profile</a>
-                                                                                         </div></td>
+<td><img src="images/wennie.jpg" width="150" /></td>
+<td><div class="line-block"><b>Master’s Student</b><br />
+<b>BSc, Biomedical Computing, Queen’s University</b><br />
+<a href="mailto:wennie.wu@mail.utoronto.ca"
+class="email">wennie.wu@mail.utoronto.ca</a><br />
+<a href="https://www.linkedin.com/in/wennie-wu-047755142/">LinkedIn
+profile</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
@@ -411,14 +358,14 @@ d(dot)howard(at)mail.utoronto.ca
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><div class="figure">
-<img src="images/sejal.jpg" width="150" />
-
-</div></td>
-<td><div style="white-space: pre-line;"><b>PhD, University of Toronto</b>
-<a href="mailto:sejal.patel@camh.ca">sejal.patel@camh.ca</a>
-<a href="https://ca.linkedin.com/in/sejal-patel-9a9847165/">LinkedIn profile</a>
-                                                                                         </div></td>
+<td><img src="images/sejal.jpg" width="150" /></td>
+<td><div class="line-block"><b>PhD, University of Toronto</b><br />
+<a href="mailto:sejal.patel@camh.ca"
+class="email">sejal.patel@camh.ca</a><br />
+<a href="https://ca.linkedin.com/in/sejal-patel-9a9847165/">LinkedIn
+profile</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
@@ -433,15 +380,16 @@ d(dot)howard(at)mail.utoronto.ca
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><div class="figure">
-<img src="images/ethan.jpg" width="150" />
-
-</div></td>
-<td><div style="white-space: pre-line;"><b>Master’s Student,</b>
-<b>H.B.Sc, Neuroscience and Molecular Biology, University of Toronto</b>
-<a href="mailto:ethan.kim@mail.utoronto.ca">ethan.kim@mail.utoronto.ca</a>
-<a href="https://www.linkedin.com/in/ethan-kim-465890113/">LinkedIn profile</a>
-                                                                                         </div></td>
+<td><img src="images/ethan.jpg" width="150" /></td>
+<td><div class="line-block"><b>Master’s Student,</b><br />
+<b>H.B.Sc, Neuroscience and Molecular Biology, University of
+Toronto</b><br />
+<a href="mailto:ethan.kim@mail.utoronto.ca"
+class="email">ethan.kim@mail.utoronto.ca</a><br />
+<a href="https://www.linkedin.com/in/ethan-kim-465890113/">LinkedIn
+profile</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
@@ -456,22 +404,23 @@ d(dot)howard(at)mail.utoronto.ca
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><div class="figure">
-<img src="images/val.jpg" width="150" />
-
-</div></td>
-<td><div style="white-space: pre-line;"><b>H.B.Sc Neuroscience, University of Toronto</b>
-<a href="mailto:valeriya.dontsova@mail.utoronto.ca">valeriya.dontsova@mail.utoronto.ca</a>
-<a href="https://ca.linkedin.com/in/valeriya-dontsova-40a90b184/">LinkedIn profile</a>
-                                                                                         </div></td>
+<td><img src="images/val.jpg" width="150" /></td>
+<td><div class="line-block"><b>H.B.Sc Neuroscience, University of
+Toronto</b><br />
+<a href="mailto:valeriya.dontsova@mail.utoronto.ca"
+class="email">valeriya.dontsova@mail.utoronto.ca</a><br />
+<a
+href="https://ca.linkedin.com/in/valeriya-dontsova-40a90b184/">LinkedIn
+profile</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
 <hr />
 </div>
-<div id="previous-members" class="section level3">
-<h3>Previous members</h3>
-<div id="clinton-royce-cunha-graduate-project-student" class="section level4">
+<div id="clinton-royce-cunha-graduate-project-student"
+class="section level4">
 <h4>Clinton Royce Cunha, Graduate Project Student</h4>
 <table>
 <colgroup>
@@ -481,15 +430,19 @@ d(dot)howard(at)mail.utoronto.ca
 <tbody>
 <tr class="odd">
 <td></td>
-<td><div style="white-space: pre-line;"><b>Masters of Bioinformatics, University of Guelph</b>
-<a href="mailto:ccunha@uoguelph.ca">ccunha@uoguelph.ca</a>
-                                                                                         </div></td>
+<td><div class="line-block"><b>Masters of Bioinformatics, University of
+Guelph</b><br />
+<a href="mailto:ccunha@uoguelph.ca"
+class="email">ccunha@uoguelph.ca</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
 <hr />
 </div>
-<div id="alex-marin-undergraduate-project-student" class="section level4">
+<div id="alex-marin-undergraduate-project-student"
+class="section level4">
 <h4>Alex Marin, Undergraduate Project Student</h4>
 <table>
 <colgroup>
@@ -499,15 +452,19 @@ d(dot)howard(at)mail.utoronto.ca
 <tbody>
 <tr class="odd">
 <td></td>
-<td><div style="white-space: pre-line;"><b>Fundamental Genetics Specialist, University of Toronto</b>
-<a href="mailto:alex.marin@mail.utoronto.ca">alex.marin@mail.utoronto.ca</a>
-                                                                                         </div></td>
+<td><div class="line-block"><b>Fundamental Genetics Specialist,
+University of Toronto</b><br />
+<a href="mailto:alex.marin@mail.utoronto.ca"
+class="email">alex.marin@mail.utoronto.ca</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
 <hr />
 </div>
-<div id="minh-an-ho-undergraduate-project-student" class="section level4">
+<div id="minh-an-ho-undergraduate-project-student"
+class="section level4">
 <h4>Minh An Ho, Undergraduate Project Student</h4>
 <table>
 <colgroup>
@@ -517,15 +474,19 @@ d(dot)howard(at)mail.utoronto.ca
 <tbody>
 <tr class="odd">
 <td></td>
-<td><div style="white-space: pre-line;"><b>BCB and Statistics program, University of Toronto</b>
-<a href="mailto:minhan.ho@mail.utoronto.ca">minhan.ho@mail.utoronto.ca</a>
-                                                                                         </div></td>
+<td><div class="line-block"><b>BCB and Statistics program, University of
+Toronto</b><br />
+<a href="mailto:minhan.ho@mail.utoronto.ca"
+class="email">minhan.ho@mail.utoronto.ca</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
 <hr />
 </div>
-<div id="xindi-zhang-undergraduate-project-student" class="section level4">
+<div id="xindi-zhang-undergraduate-project-student"
+class="section level4">
 <h4>Xindi Zhang, Undergraduate Project Student</h4>
 <table>
 <colgroup>
@@ -535,33 +496,38 @@ d(dot)howard(at)mail.utoronto.ca
 <tbody>
 <tr class="odd">
 <td></td>
-<td><div style="white-space: pre-line;"><b>BCB and Biology, University of Toronto</b>
-<a href="mailto:Xindi.Zhang@mail.utoronto.ca">Xindi.Zhang@mail.utoronto.ca</a>
-                                                                                         </div></td>
+<td><div class="line-block"><b>BCB and Biology, University of
+Toronto</b><br />
+<a href="mailto:Xindi.Zhang@mail.utoronto.ca"
+class="email">Xindi.Zhang@mail.utoronto.ca</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
-<hr />
-</div>
-<div id="jenny-yin-undergraduate-summer-student" class="section level4">
-<h4>Jenny Yin, Undergraduate Summer Student</h4>
-<table>
+<table style="width:8%;">
 <colgroup>
-<col width="37%" />
-<col width="62%" />
+<col width="2%" />
+<col width="2%" />
+<col width="2%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td></td>
-<td><div style="white-space: pre-line;"><b>BCB and Computer Science, University of Toronto</b>
-<a href="mailto:jenny.yin@mail.utoronto.ca">jenny.yin@mail.utoronto.ca</a>
-                                                                                         </div></td>
+<td>## +- | | | +-</td>
+<td>## –</td>
+<td align="right">Jenny Yin, Undergraduate Summer Student
+—————————————————+——————————————————————————————–+ | | <b>BCB and
+Computer Science, University of Toronto</b> | | | <a
+href="mailto:jenny.yin@mail.utoronto.ca"
+class="email">jenny.yin@mail.utoronto.ca</a> | | |                      
+                                                                   |
+—————————————————+——————————————————————————————–+</td>
 </tr>
 </tbody>
 </table>
-<hr />
 </div>
-<div id="linwen-huang-undergraduate-project-student" class="section level4">
+<div id="linwen-huang-undergraduate-project-student"
+class="section level4">
 <h4>Linwen Huang, Undergraduate Project Student</h4>
 <table>
 <colgroup>
@@ -571,15 +537,19 @@ d(dot)howard(at)mail.utoronto.ca
 <tbody>
 <tr class="odd">
 <td></td>
-<td><div style="white-space: pre-line;"><b>LMP and Computer Science, University of Toronto</b>
-<a href="mailto:linwenh.huang@mail.utoronto.ca">linwenh.huang@mail.utoronto.ca</a>
-                                                                                         </div></td>
+<td><div class="line-block"><b>LMP and Computer Science, University of
+Toronto</b><br />
+<a href="mailto:linwenh.huang@mail.utoronto.ca"
+class="email">linwenh.huang@mail.utoronto.ca</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
 <hr />
 </div>
-<div id="joelle-jee-undergraduate-project-student" class="section level4">
+<div id="joelle-jee-undergraduate-project-student"
+class="section level4">
 <h4>Joelle Jee, Undergraduate Project Student</h4>
 <table>
 <colgroup>
@@ -589,15 +559,18 @@ d(dot)howard(at)mail.utoronto.ca
 <tbody>
 <tr class="odd">
 <td></td>
-<td><div style="white-space: pre-line;"><b>BCB, University of Toronto</b>
-<a href="mailto:joelle.jee@mail.utoronto.ca">joelle.jee@mail.utoronto.ca</a>
-                                                                                         </div></td>
+<td><div class="line-block"><b>BCB, University of Toronto</b><br />
+<a href="mailto:joelle.jee@mail.utoronto.ca"
+class="email">joelle.jee@mail.utoronto.ca</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
 <hr />
 </div>
-<div id="justin-lee-undergraduate-project-student" class="section level4">
+<div id="justin-lee-undergraduate-project-student"
+class="section level4">
 <h4>Justin Lee, Undergraduate Project Student</h4>
 <table>
 <colgroup>
@@ -607,15 +580,19 @@ d(dot)howard(at)mail.utoronto.ca
 <tbody>
 <tr class="odd">
 <td></td>
-<td><div style="white-space: pre-line;"><b>BCB and Statistics program, University of Toronto</b>
-<a href="mailto:chunhin.lee@mail.utoronto.ca">chunhin.lee@mail.utoronto.ca</a>
-                                                                                         </div></td>
+<td><div class="line-block"><b>BCB and Statistics program, University of
+Toronto</b><br />
+<a href="mailto:chunhin.lee@mail.utoronto.ca"
+class="email">chunhin.lee@mail.utoronto.ca</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
 <hr />
 </div>
-<div id="alana-man-undergraduate-project-student" class="section level4">
+<div id="alana-man-undergraduate-project-student"
+class="section level4">
 <h4>Alana Man, Undergraduate Project Student</h4>
 <table>
 <colgroup>
@@ -625,9 +602,12 @@ d(dot)howard(at)mail.utoronto.ca
 <tbody>
 <tr class="odd">
 <td></td>
-<td><div style="white-space: pre-line;"><b>BCB and Computer Science, University of Toronto</b>
-<a href="mailto:alana.man@mail.utoronto.ca">alana.man@mail.utoronto.ca</a>
-                                                                                         </div></td>
+<td><div class="line-block"><b>BCB and Computer Science, University of
+Toronto</b><br />
+<a href="mailto:alana.man@mail.utoronto.ca"
+class="email">alana.man@mail.utoronto.ca</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
@@ -643,15 +623,16 @@ d(dot)howard(at)mail.utoronto.ca
 <tbody>
 <tr class="odd">
 <td></td>
-<td><div style="white-space: pre-line;"><b>Engineering Science, University of Toronto</b>
-<a href="mailto:jacob.ritchie@mail.utoronto.ca">jacob.ritchie@mail.utoronto.ca</a>
-                                                                                         </div></td>
+<td><div class="line-block"><b>Engineering Science, University of
+Toronto</b><br />
+<a href="mailto:jacob.ritchie@mail.utoronto.ca"
+class="email">jacob.ritchie@mail.utoronto.ca</a><br />
+                                                                      
+                  </div></td>
 </tr>
 </tbody>
 </table>
 <hr />
-<p>More to come (please see <a href="./positions.html">positions</a>)</p>
-<p><a href="https://github.com/computationalneurobiology/ComputationalNeurobiology.github.io/tree/master">Instructions to add yourself</a></p>
 </div>
 </div>
 
@@ -664,7 +645,7 @@ d(dot)howard(at)mail.utoronto.ca
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -682,7 +663,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

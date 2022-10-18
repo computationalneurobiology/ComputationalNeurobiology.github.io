@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>index</title>
 
-<script src="libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="libs/navigation-1.1/tabsets.js"></script>
 <link href="libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="libs/highlightjs-9.12.0/highlight.js"></script>
@@ -34,12 +43,16 @@
 
 </script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -52,32 +65,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="includes/main.css" type="text/css" />
 
@@ -88,10 +77,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -108,40 +93,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -169,7 +130,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -181,7 +142,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -192,10 +153,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -207,7 +181,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -243,6 +216,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -284,17 +258,14 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="research.html">Research</a></li>
-        <li><a href="positions.html">Positions</a></li>
-        <li><a href="members.html">Members</a></li>
         <li><a href="publications.html">Publications</a></li>
-        <li><a href="toolsAndData.html">Tools and Data</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="members.html">Members</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -304,13 +275,106 @@ $(document).ready(function () {
 
 <div id="computational-neurobiology-laboratory" class="section level1">
 <h1>Computational Neurobiology Laboratory</h1>
-<p><a href="http://krembilneuroinformatics.ca"><img src="images/CAMH_Horz_logo_w_Krembil_RGB.png" width="350"></a></p>
-<p>Led by Leon French, this laboratory seeks to understand diseases of the brain by mining neuroscience resources for deeper insight into brain anatomy, development and illness. Informatics methods are used to exploit the increasing amount of neuroscience data. Specifically, we focus on connectivity, gene expression and epigenetics across the genome and the brain. We employ multifaceted approaches that gain information by using data that crosses scales and species.</p>
-<div class="figure">
-<img src="images/CNR1-white.resize.png" />
-
+<p>Led by Leon French at the Krembil Centre for Neuroinformatics, this
+laboratory sought to understand diseases of the brain by mining
+neuroscience resources for deeper insight into brain anatomy,
+development and illness. Specifically, we focused on connectivity, gene
+expression across the genome, brain, and body. We employed multifaceted
+approaches that gain information by using data that crosses scales and
+species.</p>
+<div id="online-tools---mostly-all-are-prototypes"
+class="section level3">
+<h3>Online tools - mostly all are prototypes</h3>
 </div>
-<p>Leon French and Tomáš Paus. A FreeSurfer view of the cortical transcriptome generated from the Allen Human Brain Atlas. <a href="http://journal.frontiersin.org/article/10.3389/fnins.2015.00323/full">Frontiers in Neuroscience, Neurogenomics section</a>, August 24, 2015.</p>
+<div id="human" class="section level2">
+<h2>Human</h2>
+<ul>
+<li><a
+href="https://share.streamlit.io/leonfrench/polyprotein_stats/main/protein_embeddings_app.py">Polyprotein
+stats</a>: Looks at simple and complex representations of protein
+sequences and tests if they can be used for classification</li>
+<li><a
+href="https://derekhoward.shinyapps.io/gtex_enrichment/">Polygenic
+tissue</a>: Polygenic celltype tester for the bulk human GTEx
+tissues</li>
+<li><a
+href="https://polygenic.shinyapps.io/polygenic_gtex_single_cell/">Polygenic
+single cell tissue</a>: Polygenic celltype tester for the human GTEx
+single cell pilot data from Eraslan et al.</li>
+<li><a
+href="https://derekhoward.shinyapps.io/enteric_enrichment/">Polygenic
+enteric tester</a>: Polygenic tester for human enteric nervous
+system</li>
+<li><a
+href="https://polygenic.shinyapps.io/polygenic_singlecell_from_hpa/">Polygenic
+Human Protein Atlas tester</a>: Polygenic tester for Human Protein Atlas
+single-cell data from Karlsson et al. (gene expression data)</li>
+<li><a href="https://hbaset.msl.ubc.ca/">HBASets</a>: a tool for
+multigene expression mapping in the human brain</li>
+<li><a href="https://brain.shinyapps.io/polygenic_layers/">Polygenic
+developmental zones</a>: Polygenic developmental layer tester for human
+and macaque cortex</li>
+<li><a
+href="https://ethanhkim.shinyapps.io/transcriptome_app/">LaminaRGeneVis</a>:
+Gene expression enrichment tester for human cortical layers</li>
+<li><a
+href="https://poly-brain.shinyapps.io/polygenic_snrna_from_siletti_et_al/">Polygenic
+adult brain single nucleus data</a>: Polygenic tester for adult human
+brain single nucleus dataset from Siletti et al.</li>
+</ul>
+</div>
+<div id="monkey" class="section level2">
+<h2>Monkey</h2>
+<ul>
+<li><a href="https://polygenic.shinyapps.io/nhpca_polygenic/">Polygenic
+non human primate atlas</a>: Polygenic tester for the Cell
+transcriptomic atlas of the non-human primate Macaca fascicularis data
+(from Lei Han et al.)</li>
+<li><a href="https://brain.shinyapps.io/polygenic_layers/">Polygenic
+developmental zones</a>: Polygenic developmental layer tester for human
+and macaque cortex</li>
+</ul>
+</div>
+<div id="mouse" class="section level2">
+<h2>Mouse</h2>
+<ul>
+<li><a href="https://brain.shinyapps.io/polygenic_celltypes/">Polygenic
+celltypes</a>: Polygenic celltype tester for the mouse nervous
+system</li>
+<li><a
+href="https://brain.shinyapps.io/polygenicsaunderssinglecell/">Polygenic
+celltypes from Saunders et al. dataset</a>: Polygenic celltype tester
+for the mouse nervous system</li>
+</ul>
+<div id="software-and-data" class="section level3">
+<h3>Software and Data</h3>
+<ul>
+<li><a href="https://github.com/leonfrench">Leon’s GitHub page</a></li>
+<li><a href="http://www.chibi.ubc.ca/WhiteText/">WhiteText Project</a>:
+text mining for neuroanatomy</li>
+<li><a
+href="https://github.com/leonfrench/ABAMS/tree/master/BAMSandAllen">ABAMS
+Project</a>: tools to analyze gene expression and connectivity in the
+rodent brain</li>
+<li><a
+href="http://figshare.com/articles/A_FreeSurfer_view_of_the_cortical_transcriptome_generated_from_the_Allen_Human_Brain_Atlas/1439749">Freesurfer
+view of the cortical transcriptome</a></li>
+</ul>
+</div>
+<div id="relevant-local-mailing-lists-and-event-pages"
+class="section level3">
+<h3>Relevant local mailing lists and event pages</h3>
+<ul>
+<li><a
+href="https://lists.torbug.org/mailman/listinfo/announce">TorBUG</a></li>
+<li><a
+href="http://www.neuroscience.utoronto.ca/aboutus/join-cpin.htm">Collaborative
+Program in Neuroscience - CPIN</a></li>
+<li><a href="https://stage.utoronto.ca/home/isss">Statistical methods
+for genetics and genomics (not sure how to get on list)</a></li>
+</ul>
+</div>
+</div>
 </div>
 
 
@@ -322,7 +386,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -340,7 +404,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

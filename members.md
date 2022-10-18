@@ -8,21 +8,8 @@ This is really annoying to edit - the tables are really finicky about spaces - m
 The table widths are relative to the longest column, hence the &nbsp; &nbsp; padding to make sure alignment is right
 Also it's best to edit it with a text editor that doesn't wrap lines
 -->
+### Previous members
 
-#### Leon French, Principal Investigator  
-+------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| ![](./images/Leon.picture.jpg)                 | | <b>Independent Scientist, Krembil Centre for Neuroinformatics, </b>                                                    |
-|                                                | | <b>Campbell Family Mental Health Research Institute at CAMH</b>                                               |
-|                                                | | <b>Assistant Professor (status only), Department of Psychiatry, University of Toronto</b>                                            |
-|                                                | | <b> Associate Member, Institute of Medical Science, University of Toronto</b>                                            |
-|                                                | | Toronto, Ontario, Canada                                                                                                 |
-|                                                | |  leon.french@camh.ca                                                                                            |
-|                                                | |  [LinkedIn profile](https://ca.linkedin.com/in/leonfrench)                                                                               |
-|                                                | |  [Publication list on Google Scholar](https://scholar.google.ca/citations?hl=en&user=zBJxfPEAAAAJ&view_op=list_works&sortby=pubdate)         |
-|                                                | |  [ResearchGate profile ](https://www.researchgate.net/profile/Leon_French)                                                         |
-+------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-
-- - -
 
 #### Derek Howard, Research Analyst
 
@@ -89,8 +76,6 @@ Also it's best to edit it with a text editor that doesn't wrap lines
 +------------------------------------------------------+-------------------------------------------------------------------------------------------+
 
 - - -
-
-### Previous members
 
 #### Clinton Royce Cunha, Graduate Project Student
 
@@ -187,7 +172,3 @@ Also it's best to edit it with a text editor that doesn't wrap lines
                                                 
 - - -
                                                                    
-More to come (please see [positions](./positions.html))
-
-
-[Instructions to add yourself](https://github.com/computationalneurobiology/ComputationalNeurobiology.github.io/tree/master)
