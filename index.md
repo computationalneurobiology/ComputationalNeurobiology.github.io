@@ -11,6 +11,7 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
 ### Online tools - mostly all are prototypes
 
 ## Human
+* [Polyprotein tissue (GTEx samples)](https://poly-brain.shinyapps.io/polyprotein_atlas/): Tissue specific polyprotein tester for the quantitative proteome map of the human body from Jiang et al.
 * Polyprotein stats [ProtT5 embeddings](https://share.streamlit.io/leonfrench/polyprotein_stats/main/protein_embeddings_app.py) or [cytoself feature spectra](https://leonfrench-polyprotein-stats-protein-embeddings-app-czi--bys9gy.streamlitapp.com/): Looks at simple and complex representations of protein sequences or images and tests if they can be used for classification
 * [Polygenic tissue](https://derekhoward.shinyapps.io/gtex_enrichment/): Polygenic celltype tester for the bulk human GTEx tissues
 * [Single cell tissue](https://polygenic.shinyapps.io/polygenic_gtex_single_cell/): Polygenic celltype tester for the human GTEx single cell pilot data from Eraslan et al.
