@@ -18,6 +18,7 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
   * [Cytoself feature spectra](https://leonfrench-polyprotein-stats-protein-embeddings-app-czi--bys9gy.streamlitapp.com/)
   * [Geneformer embeddings from single cells](https://leonfrench-polyprotein-stats-protein-embeddings-app-gene-ng4s05.streamlit.app/)
   * [scGPT embeddings from single cells](https://probe-scgpt-gene-embeddings.streamlit.app/)
+  * [SaProt structure aware protein embeddings from structure](https://saprot-embeddings.streamlit.app/)
 * [Polygenic tissue](https://derekhoward.shinyapps.io/gtex_enrichment/): Polygenic celltype tester for the bulk human GTEx tissues
 * [Single cell tissue](https://polygenic.shinyapps.io/polygenic_gtex_single_cell/): Polygenic celltype tester for the human GTEx single cell pilot data from Eraslan et al.
 * [Enteric tester](https://derekhoward.shinyapps.io/enteric_enrichment/): Polygenic tester for human enteric nervous system
