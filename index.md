@@ -31,6 +31,8 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
 * [LaminaRGeneVis](https://ethanhkim.shinyapps.io/transcriptome_app/): Gene expression enrichment tester for human cortical layers
 * [Adult brain single nucleus data](https://poly-brain.shinyapps.io/polygenic_snrna_from_siletti_et_al/): Polygenic tester for adult human brain single nucleus dataset from Siletti et al.
 * [First-trimester developing human brain single cell data](https://poly-brain.shinyapps.io/polygenic_snrna_from_braun_et_al/): Polygenic tester for fetal human brain single cell dataset from Braun et al.
+* [Global organelle proteome profiling
+](https://poly-brain.shinyapps.io/polygenic_organelles/): Polygenic tester for the global organelle proteome profiling dataset from the Chan Zuckerberg Biohub
 
 
 ## Monkey
