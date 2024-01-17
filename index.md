@@ -13,7 +13,7 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
 ## Human
 * [Polyprotein compounds](https://poly-brain.shinyapps.io/polyprotein_drugs/): Drug mechanism of action polyprotein tester for the proteome-wide atlas of drug mechanism of action from Mitchell et al.
 * [Polyprotein tissue (GTEx samples)](https://poly-brain.shinyapps.io/polyprotein_atlas/): Tissue specific polyprotein tester for the quantitative proteome map of the human body from Jiang et al.
-* Polyprotein stats: : Looks at simple and complex representations of genes or proteins and tests if they can be used for classification 
+* Polyprotein stats: Looks at simple and complex representations of genes or proteins and tests if they can be used for classification 
   * [ProtT5 embeddings](https://share.streamlit.io/leonfrench/polyprotein_stats/main/protein_embeddings_app.py) 
   * [Cytoself feature spectra](https://leonfrench-polyprotein-stats-protein-embeddings-app-czi--bys9gy.streamlitapp.com/)
   * [Geneformer embeddings from single cells](https://leonfrench-polyprotein-stats-protein-embeddings-app-gene-ng4s05.streamlit.app/)
