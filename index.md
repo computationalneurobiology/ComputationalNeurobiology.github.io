@@ -21,7 +21,7 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
   * [SaProt structure aware protein embeddings](https://saprot-embeddings.streamlit.app/)
   * [ESM2 650M model protein embeddings](https://esm2-650m-embeddings.streamlit.app/)
   * [ProstT5 protein sequence and structure embeddings](https://prostt5-embeddings.streamlit.app/)
-  * [GenePT gene description based GPT-3.5 embeddings](https://gene-pt-embeddings.streamlit.app/)
+  * [GenePT gene description based GPT-3.5 embeddings](https://gene-pt-embeddings.streamlit.app/) and [without NCBI descriptions](https://gene-pt-embeddings-non-ncbi.streamlit.app/) in prompt
   * [Nucleotide transformer embeddings from 12k bases upstream of transcription start sites](https://nucleotide-transformer-embeddings.streamlit.app/)
   * [Nicheformer embeddings](https://nicheformer-embeddings.streamlit.app/)
 * [Polygenic tissue](https://derekhoward.shinyapps.io/gtex_enrichment/): Polygenic celltype tester for the bulk human GTEx tissues
