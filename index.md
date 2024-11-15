@@ -25,6 +25,7 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
   * [Nucleotide transformer embeddings from 12k bases upstream of transcription start sites](https://nucleotide-transformer-embeddings.streamlit.app/)
   * [Nicheformer embeddings](https://nicheformer-embeddings.streamlit.app/)
   * [Orthrus embeddings](https://apps.healthuniverse.com/elp-ilu-kfw/)
+  * [Meta Hi-C PCA](https://hi-c-embed.streamlit.app/)
 * [Polygenic tissue](https://derekhoward.shinyapps.io/gtex_enrichment/): Polygenic celltype tester for the bulk human GTEx tissues
 * [Single cell tissue](https://polygenic.shinyapps.io/polygenic_gtex_single_cell/): Polygenic celltype tester for the human GTEx single cell pilot data from Eraslan et al.
 * [Enteric tester](https://derekhoward.shinyapps.io/enteric_enrichment/): Polygenic tester for human enteric nervous system
