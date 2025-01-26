@@ -40,7 +40,7 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
 * [Global organelle proteome profiling](https://poly-brain.shinyapps.io/polygenic_organelles/): Polygenic tester for the global organelle proteome profiling dataset from the Chan Zuckerberg Biohub
 * [Human fetal atlas](https://polygenes.shinyapps.io/polygeneic_fetal_human/): Polygenic tester for the human cell atlas of fetal gene expression by Cao et al.
 * [Human white adipose tissue](https://polygenes.shinyapps.io/polygeneic_white_adipose/): Polygenic tester for the abdominal white adipose tissue cell atlas by Streets et al. 
-
+* [Human blood cells](https://polygenes.shinyapps.io/polygeneic_blood_human/): Polygenic tester for the reference blood cell atlas by ScaleBio
 
 
 ## Monkey
