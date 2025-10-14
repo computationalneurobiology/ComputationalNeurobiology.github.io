@@ -44,7 +44,7 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
 * [Human visceral adipose tissue](https://polygenes.shinyapps.io/polygenic_visceral_adipose/): Polygenic tester for the visceral adipose tissue atlas by Lazarescu et al.
 * [Human blood cells](https://polygenes.shinyapps.io/polygeneic_blood_human/): Polygenic tester for the reference blood cell atlas by ScaleBio
 * [Human retina atlas](https://polygenes.shinyapps.io/polygenic_retina/): Polygenic tester for the human retina atlas by Jin Li et al.
-
+* [Asian Immune Diversity Atlas](https://polyexpression.shinyapps.io/polygeneic_asian_immune/): Polygenic tester for the Asian Immune Diversity Atlas
 
 
 ## Monkey
