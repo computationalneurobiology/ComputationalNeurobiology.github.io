@@ -33,7 +33,7 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
 * [Single cell tissue](https://polygenic.shinyapps.io/polygenic_gtex_single_cell/): Polygenic celltype tester for the human GTEx single cell pilot data from Eraslan et al.
 * [Enteric tester](https://derekhoward.shinyapps.io/enteric_enrichment/): Polygenic tester for human enteric nervous system
 * [Human Protein Atlas tester](https://polygenic.shinyapps.io/polygenic_singlecell_from_hpa/): Polygenic tester for Human Protein Atlas single-cell data from Karlsson et al. (gene expression data)
-* [HBASets](https://hbaset.msl.ubc.ca/): a tool for multigene expression mapping in the human brain
+* [HBASets](https://hbaset.msl.ubc.ca/): a tool for multigene expression mapping in the human brain. Currently down - send me an email if you miss it!
 * [Developmental zones](https://brain.shinyapps.io/polygenic_layers/): Polygenic developmental layer tester for human and macaque cortex
 * [LaminaRGeneVis](https://ethanhkim.shinyapps.io/transcriptome_app/): Gene expression enrichment tester for human cortical layers
 * [Adult brain single nucleus data](https://poly-brain.shinyapps.io/polygenic_snrna_from_siletti_et_al/): Polygenic tester for adult human brain single nucleus dataset from Siletti et al.
@@ -45,6 +45,8 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
 * [Human blood cells](https://polygenes.shinyapps.io/polygeneic_blood_human/): Polygenic tester for the reference blood cell atlas by ScaleBio
 * [Human retina atlas](https://polygenes.shinyapps.io/polygenic_retina/): Polygenic tester for the human retina atlas by Jin Li et al.
 * [Asian Immune Diversity Atlas](https://polyexpression.shinyapps.io/polygeneic_asian_immune/): Polygenic tester for the Asian Immune Diversity Atlas
+* [Mundane or generic property tester](https://generic-genes.streamlit.app/): Polygenic tester fo mundane, basic, or non-specific signals.
+* [Basic AUROC GO tester](https://auroc-go-enrichment.streamlit.app/): Takes in a ranked input and computes GO enrichment. Developed primarily by Katarina Vucic. 
 
 
 ## Monkey
