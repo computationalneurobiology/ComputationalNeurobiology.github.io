@@ -47,7 +47,7 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
 * [Asian Immune Diversity Atlas](https://polyexpression.shinyapps.io/polygeneic_asian_immune/): Polygenic tester for the Asian Immune Diversity Atlas
 * [Mundane or generic property tester](https://generic-genes.streamlit.app/): Polygenic tester fo mundane, basic, or non-specific signals.
 * [Basic AUROC GO tester](https://auroc-go-enrichment.streamlit.app/): Takes in a ranked input and computes GO enrichment. Developed primarily by Katarina Vucic. 
-
+* [Protein Neighborhoods](https://leonfrench.github.io/protein-neighborhoods/): Look up the data driven neighborhood of your favorite proteins.
 
 ## Monkey
 * [Polygenic non human primate atlas](https://polygenic.shinyapps.io/nhpca_polygenic/): Polygenic tester for the Cell transcriptomic atlas of the non-human primate Macaca fascicularis data (from Lei Han et al.)
