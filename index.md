@@ -25,7 +25,7 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
   * [GenePT gene description based Llama embeddings](https://llamma-genes.streamlit.app/)
   * [Nucleotide transformer embeddings from 12k bases upstream of transcription start sites](https://nucleotide-transformer-embeddings.streamlit.app/)
   * [Nicheformer embeddings](https://nicheformer-embeddings.streamlit.app/)
-  * [Orthrus embeddings](https://apps.healthuniverse.com/elp-ilu-kfw/)
+  * [Orthrus embeddings](https://apps.healthuniverse.com/ctf-yhg-eoe/)
   * [Meta Hi-C PCA](https://hi-c-embed.streamlit.app/)
   * [SubCell fluorescence microscopy embeddings](https://subcell-embed.streamlit.app/)
   * [ESM C 600M embeddings](https://esm-c-600-embeddings.streamlit.app/)
