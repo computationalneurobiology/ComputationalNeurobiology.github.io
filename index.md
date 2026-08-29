@@ -43,12 +43,15 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
 * [Human fetal atlas](https://polygenes.shinyapps.io/polygeneic_fetal_human/): Polygenic tester for the human cell atlas of fetal gene expression by Cao et al.
 * [Human white adipose tissue](https://polygenes.shinyapps.io/polygeneic_white_adipose/): Polygenic tester for the abdominal white adipose tissue cell atlas by Streets et al. 
 * [Human visceral adipose tissue](https://polygenes.shinyapps.io/polygenic_visceral_adipose/): Polygenic tester for the visceral adipose tissue atlas by Lazarescu et al.
-* [Human blood cells](https://polygenes.shinyapps.io/polygeneic_blood_human/): Polygenic tester for the reference blood cell atlas by ScaleBio
 * [Human retina atlas](https://polygenes.shinyapps.io/polygenic_retina/): Polygenic tester for the human retina atlas by Jin Li et al.
+* [Human blood cells](https://polygenes.shinyapps.io/polygeneic_blood_human/): Polygenic tester for the reference blood cell atlas by ScaleBio
 * [Asian Immune Diversity Atlas](https://polyexpression.shinyapps.io/polygeneic_asian_immune/): Polygenic tester for the Asian Immune Diversity Atlas
+* [Immunobiology of Aging Cohort PBMC](https://immunobiology-of-aging-polygenic-app.streamlit.app/): Polygenic tester for the Immunobiology of Aging Cohort Atlas
 * [Mundane or generic property tester](https://generic-genes.streamlit.app/): Polygenic tester fo mundane, basic, or non-specific signals.
 * [Basic AUROC GO tester](https://auroc-go-enrichment.streamlit.app/): Takes in a ranked input and computes GO enrichment. Developed primarily by Katarina Vucic. 
 * [Protein Neighborhoods](https://leonfrench.github.io/protein-neighborhoods/): Look up the data driven neighborhood of your favorite proteins.
+* [SEA-AD multiregion](https://sea-ad-multi-polygenic-app.streamlit.app/): Polygenic tester for the multiregion preprint release of the Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD)
+
 
 ## Monkey
 * [Polygenic non human primate atlas](https://polygenic.shinyapps.io/nhpca_polygenic/): Polygenic tester for the Cell transcriptomic atlas of the non-human primate Macaca fascicularis data (from Lei Han et al.)
