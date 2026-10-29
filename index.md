@@ -51,7 +51,9 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
 * [Basic AUROC GO tester](https://auroc-go-enrichment.streamlit.app/): Takes in a ranked input and computes GO enrichment. Developed primarily by Katarina Vucic. 
 * [Protein Neighborhoods](https://leonfrench.github.io/protein-neighborhoods/): Look up the data driven neighborhood of your favorite proteins.
 * [SEA-AD multiregion](https://sea-ad-multi-polygenic-app.streamlit.app/): Polygenic tester for the multiregion preprint release of the Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD)
-
+* [PsychAD](https://psychad-polygenic-tester.streamlit.app/): Tester for cell-type-specific associations with Alzheimer's disease pathology, dementia, and aging in human prefrontal cortex datasets.
+* [HMBA](https://hmba-polygenic-app.streamlit.app/): Polygenic tester for the human whole-brain atlas from the Human and Mammalian Brain Atlas (HMBA v0.5).
+* [Spatial fetal brain](https://spatial-fetal-app.streamlit.app/): Visualize gene-set expression across spatial transcriptomic sections of the developing human brain, with tissue-specific enrichment analysis.
 
 ## Monkey
 * [Polygenic non human primate atlas](https://polygenic.shinyapps.io/nhpca_polygenic/): Polygenic tester for the Cell transcriptomic atlas of the non-human primate Macaca fascicularis data (from Lei Han et al.)
@@ -60,6 +62,8 @@ Led by Leon French at the Krembil Centre for Neuroinformatics, this laboratory s
 
 ## Mouse
 
+* [Han Stereo-seq](https://polygenic-brain-han-stereoseq.streamlit.app/): gene-set expression across spatial transcriptomic sections of the whole mouse brain from Han et al., with cell-type and brain-region enrichment analysis.
+* [Yao MERFISH 500](https://polygenic-brain-yao-merfish500.streamlit.app/): Visualize gene-set expression across coronal MERFISH sections of the whole mouse brain from Yao et al., with cell-type and brain-region enrichment analysis (500-gene panel).
 * [Polygenic celltypes](https://brain.shinyapps.io/polygenic_celltypes/): Polygenic celltype tester for the mouse nervous system
 * [Polygenic celltypes from Saunders et al. dataset](https://brain.shinyapps.io/polygenicsaunderssinglecell/): Polygenic celltype tester for the mouse nervous system
 
